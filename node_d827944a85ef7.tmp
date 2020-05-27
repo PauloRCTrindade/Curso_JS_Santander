@@ -1,0 +1,11 @@
+var numero  = 5
+
+function produto(numero){
+    var multiplica = 1
+    for(var pos = 0; numero > 0;pos--){
+        
+    }
+    return pos
+}
+
+console.log(produto(numero))

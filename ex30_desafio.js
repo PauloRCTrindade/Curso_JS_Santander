@@ -1,11 +1,10 @@
-var numero = 5
-function fat(numero){
+var numero = 3
+function fatorial(numero){
     var multiplica = 1
-
-    for(var i = numero; numero > 0;i--){
-        multiplica = i * i -1
+    for(var i = 1; i <= numero;i++){
+       var multiplica = multiplica * i
     }
     return multiplica
 }
 
-console.log(fat(numero))
+console.log(fatorial(numero))
