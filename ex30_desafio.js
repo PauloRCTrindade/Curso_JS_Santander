@@ -1,5 +1,5 @@
 var numero = 5
-function fatorial(numero){
+function fat(numero){
     var multiplica = 1
 
     for(var i = numero; numero > 0;i--){
@@ -8,4 +8,4 @@ function fatorial(numero){
     return multiplica
 }
 
-console.log(fatorial(numero))
+console.log(fat(numero))
